@@ -21,7 +21,7 @@ Cons:
 1) Fragmentation: Over time, fragmentation can still occur, particularly if memory is allocated and deallocated in an irregular pattern.
 2) Overhead: Maintaining a linked list incurs some overhead, as each allocation and deallocation requires updating pointers.
 
-# Buddy Allocator
+# [Buddy Allocator](https://github.com/CHIRANJEET1729DAS/Building-Memory-Allocator-c-/blob/main/header_files/memory_allocator_buddy_method.hpp)
 
 Get ready for the Buddy Allocator! This clever allocator splits memory into blocks of sizes that are powers of two, making allocation and deallocation lightning-fast! When a request comes in, it quickly finds the smallest suitable block and, if necessary, splits it into two buddy blocks, ready to serve future requests.
 
