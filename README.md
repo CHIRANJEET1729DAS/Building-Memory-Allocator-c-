@@ -6,7 +6,7 @@ This project features a custom memory allocator implemented in C++. It showcases
 
 # Memory Allocation Techniques
 
-# Free List Allocator [link](https://github.com/CHIRANJEET1729DAS/Building-Memory-Allocator-c-/blob/main/header_files/memory_allocator_free_list_method.hpp)
+# [Free List Allocator](https://github.com/CHIRANJEET1729DAS/Building-Memory-Allocator-c-/blob/main/header_files/memory_allocator_free_list_method.hpp)
 
 The Free List Allocator is a powerful and flexible memory management technique that maintains a dynamic linked list of free memory blocks. When a memory request comes in, the allocator leaps into action, searching through the free list to find the perfect fit!
 
@@ -37,7 +37,7 @@ Cons:
 1) Internal Fragmentation: Blocks allocated might be larger than needed, leading to wasted space within those blocks.
 2) Power of Two Limitation: Best suited for applications that request memory in powers of two; can be less efficient for arbitrary sizes.
 
-# Basic Allocator [link](https://github.com/CHIRANJEET1729DAS/Building-Memory-Allocator-c-/blob/main/header_files/memoryPool.hpp)
+# [Basic Allocator](https://github.com/CHIRANJEET1729DAS/Building-Memory-Allocator-c-/blob/main/header_files/memoryPool.hpp)
 
 The Basic Allocator is the simplest form of memory allocation, ideal for applications that need quick and straightforward memory management. It allocates a fixed block of memory from the operating system and serves requests in a linear fashion.
 
